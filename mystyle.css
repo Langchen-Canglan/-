@@ -1,0 +1,7 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #BEEEFF;  /* 兜底纯色 */
+  background: -webkit-linear-gradient(160deg, #BEEEFF, #FF7E8C, #FF6150, #FFE300);
+  background: linear-gradient(160deg, #BEEEFF, #FF7E8C, #FF6150, #FFE300);
+}
