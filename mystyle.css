@@ -2,6 +2,22 @@ body {
   min-height: 100vh;
   margin: 0;
   background: #BEEEFF;  /* 兜底纯色 */
-  background: -webkit-linear-gradient(160deg, #BEEEFF, #FF7E8C, #FF6150, #FFE300);
-  background: linear-gradient(160deg, #BEEEFF, #FF7E8C, #FF6150, #FFE300);
+  background: -webkit-linear-gradient(
+    to right,
+    #BEEEFF 0%,    /* 蓝色起点 */
+    #BEEEFF 30%,   /* 蓝色独占左30% */
+    #FF6150 38%,   /* 红色快速出现 */
+    #FFE300 42%,   /* 黄色快速出现 */
+    #FF7E8C 52%,   /* 粉色在中间过渡 */
+    #FFB6C1 100%   /* 浅粉色收尾 */
+  );
+  background: linear-gradient(
+    to right,
+    #BEEEFF 0%,
+    #BEEEFF 30%,
+    #FF6150 38%,
+    #FFE300 42%,
+    #FF7E8C 52%,
+    #FFB6C1 100%
+  );
 }
